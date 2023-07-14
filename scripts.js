@@ -1,7 +1,7 @@
 function init() {
     let takeOffButton = document.getElementById("takeoff");
-    takeoffButton.addEventListener("click",function(event) {
-    console. log ("confirms that shuttle is ready to takeoff!");
+    takeOffButton.addEventListener("click", function(event) {
+    console.log("confirms that shuttle is ready to takeoff!");
     });
 } window.addEventListener('load',init)
 
